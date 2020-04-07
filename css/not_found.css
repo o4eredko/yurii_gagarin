@@ -40,10 +40,10 @@ body {
     width: 20vw;
     position: absolute;
     right: 35%;
+    top: 47%;
     animation-name: down_and_up;
-    animation-duration: 5s;
-    animation-delay: .1s;
-    top: 50%;
+    animation-duration: 10s;
+    animation-delay: .5s;
     animation-iteration-count: infinite;
     transform: translate(0, calc(-50% - 3vh));
 }
