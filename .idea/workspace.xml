@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e6accc-5e47-4a95-aea6-3a475299a0b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/link_expired.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/link_expired.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/not_found.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/not_found.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/not_found.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586252662469</updated>
-      <workItem from="1586252663690" duration="3123000" />
+      <workItem from="1586252663690" duration="3375000" />
     </task>
     <servers />
   </component>
