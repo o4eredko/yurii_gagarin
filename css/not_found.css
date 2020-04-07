@@ -121,6 +121,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+    br {
+        display: none;
+    }
     .double_four {
         width: 60vw;
     }
