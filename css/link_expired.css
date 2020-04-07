@@ -1,0 +1,91 @@
+body {
+    background-image: url("../img/triangle.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 20vh;
+}
+
+.content-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.primary-msg {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.secondary-msg {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+@keyframes rocket_animation {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-20%, -20%);
+    }
+}
+
+.rocket {
+    margin: 0 auto;
+    position: absolute;
+    left: -3%;
+    top: 5%;
+    height: 40%;
+    animation-name: rocket_animation;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes astronaut_animation {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-10%, -15%);
+    }
+}
+
+.astronaut {
+    margin: 0 auto;
+    position: absolute;
+    left: 85%;
+    top: 40%;
+    height: 60%;
+    animation-name: astronaut_animation;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background: url("../img/bubbles.png") no-repeat top left / cover;
+    }
+
+    .content-container {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .rocket {
+        height: 25%;
+    }
+}

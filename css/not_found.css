@@ -1,0 +1,145 @@
+body {
+    color: #151945;
+    overflow: hidden;
+}
+
+#not-found::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: calc(50% + 13vh);
+    top: 0;
+    bottom: 0;
+    background-color: #1f75cc;
+    width: 200%;
+    transform: skew(15deg);
+    transform-origin: bottom;
+    z-index: -1;
+}
+
+
+#not-found .row {
+    height: 100vh;
+}
+
+.not-found {
+    padding-left: 7vw;
+}
+
+.not-found__title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.not-found__text {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.images {
+    background: url("../img/bubbles.png") no-repeat top left / 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7vw;
+}
+
+.double_four {
+    max-width: 600px;
+    width: 42vw;
+    transform: translate(0, -17vh);
+}
+
+.astronaut {
+    margin: 0 auto;
+    max-width: 290px;
+    width: 20vw;
+    position: absolute;
+    right: 35%;
+    animation-name: down_and_up;
+    animation-duration: 5s;
+    animation-delay: .1s;
+    top: 50%;
+    animation-iteration-count: infinite;
+    transform: translate(0, calc(-50% - 3vh));
+}
+
+@keyframes down_and_up {
+    0% {
+        top: 47%
+    }
+
+    50% {
+        top: 52%;
+    }
+
+    100% {
+        top: 47%
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .btn {
+        color: #1f75cc;
+        background-color: white;
+        border-color: white;
+    }
+
+    .btn:hover {
+        color: white;
+        background-color: transparent;
+    }
+
+    .not-found {
+        padding: 15vh 15px 0;
+        text-align: center;
+        color: white;
+    }
+
+    #not-found {
+        background: url("../img/bubbles.png") no-repeat top left / cover;
+    }
+
+    #not-found::before {
+        left: 0;
+        transform: 0;
+    }
+
+    .images {
+        justify-content: center;
+        padding: 15vh 0 0;
+        align-items: flex-start;
+        background: none;
+    }
+
+    .double_four {
+        transform: none;
+    }
+
+    .astronaut {
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    @keyframes down_and_up {
+        0% {
+            top: 9%
+        }
+
+        50% {
+            top: 15%;
+        }
+
+        100% {
+            top: 9%
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .double_four {
+        width: 60vw;
+    }
+}

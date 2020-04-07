@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    overflow: hidden
+}
+
+.btn {
+    border: 1px solid #1f75cc;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1f75cc;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 14px 55px;
+    transition: .15s ease-in all;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #1f75cc;
+}
