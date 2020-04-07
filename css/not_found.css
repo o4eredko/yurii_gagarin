@@ -43,7 +43,7 @@ body {
     top: 47%;
     animation-name: down_and_up;
     animation-duration: 10s;
-    animation-delay: .5s;
+    animation-delay: .7s;
     animation-iteration-count: infinite;
     transform: translate(0, calc(-50% - 3vh));
 }

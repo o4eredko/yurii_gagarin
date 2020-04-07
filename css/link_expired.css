@@ -58,7 +58,7 @@ h2 {
     top: 40%;
     height: 60%;
     animation-name: astronaut_animation;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-delay: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
