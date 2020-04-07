@@ -17,26 +17,8 @@ body {
     z-index: -1;
 }
 
-
-#not-found .row {
-    height: 100vh;
-}
-
 .not-found {
     padding-left: 7vw;
-}
-
-.not-found__title {
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.not-found__text {
-    font-size: 24px;
-    margin-top: 0;
-    font-weight: 400;
-    margin-bottom: 45px;
 }
 
 .images {
